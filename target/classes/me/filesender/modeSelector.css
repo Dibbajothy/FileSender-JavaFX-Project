@@ -1,0 +1,45 @@
+.anchor-pane {
+    -fx-background-color: white;
+    -fx-alignment: center, center;
+}
+
+.button {
+    -fx-font-family: "Arial";
+    -fx-font-size: 12px;
+    -fx-cursor: hand;
+    -fx-pref-width: 171px;
+    -fx-pref-height: 35px;
+    -fx-border-radius: 100px;
+    -fx-background-color: #0078d7;
+    -fx-background-radius: 100px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: #005bb5;
+}
+
+.button:pressed {
+    -fx-background-color: #003f8a;
+}
+
+.Icon {
+    -fx-fill: #ffffff;
+}
+
+#wiredIp{
+    -fx-font-weight: bold;
+    -fx-font-size: 1.5em;
+}
+
+#wifiIP{
+    -fx-font-weight: bold;
+    -fx-font-size: 1.5em;
+}
+
+#openText{
+    -fx-font-family: Corbel;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.5em;
+}

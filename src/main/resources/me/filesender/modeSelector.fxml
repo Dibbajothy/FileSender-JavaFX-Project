@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="513.0" prefWidth="344.0" stylesheets="@modeSelector.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.filesender.modeSelector">
+   <children>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fx:id="openText" strokeType="OUTSIDE" strokeWidth="0.0" text="File Sharing On Local Network" />
+            <Label fx:id="wiredIp" alignment="CENTER" contentDisplay="CENTER" prefHeight="33.0" prefWidth="280.0">
+               <VBox.margin>
+                  <Insets bottom="-10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="wifiIP" alignment="CENTER" contentDisplay="CENTER" prefHeight="33.0" prefWidth="280.0">
+               <VBox.margin>
+                  <Insets bottom="40.0" />
+               </VBox.margin>
+            </Label>
+            <Button fx:id="sendButton" mnemonicParsing="false" prefHeight="34.0" prefWidth="166.0" text="Send">
+               <graphic>
+                  <FontAwesomeIcon glyphName="SEND" styleClass="Icon" />
+               </graphic>
+            </Button>
+            <Button fx:id="receiveButton" mnemonicParsing="false" prefHeight="34.0" prefWidth="166.0" text="Receive">
+               <graphic>
+                  <FontAwesomeIcon glyphName="DOWNLOAD" styleClass="Icon" />
+               </graphic>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
